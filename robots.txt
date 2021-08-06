@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.5zyx.com/sitemap.xml

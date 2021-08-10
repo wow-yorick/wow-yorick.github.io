@@ -5,6 +5,16 @@
     <link>https://www.5zyx.com/tags/</link>
     <description>Recent content in Tags on 编程悟道</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://www.5zyx.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 10 Aug 2021 11:31:06 +0800</lastBuildDate><atom:link href="https://www.5zyx.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>go-lib</title>
+      <link>https://www.5zyx.com/tags/go-lib/</link>
+      <pubDate>Tue, 10 Aug 2021 11:31:06 +0800</pubDate>
+      
+      <guid>https://www.5zyx.com/tags/go-lib/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

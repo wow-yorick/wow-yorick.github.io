@@ -10,21 +10,49 @@
   
   <url>
     <loc>https://www.5zyx.com/categories/</loc>
-    <lastmod>2021-08-12T17:18:47+08:00</lastmod>
+    <lastmod>2021-08-13T10:22:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.5zyx.com/categories/go/</loc>
+    <lastmod>2021-08-13T10:22:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.5zyx.com/tags/go-lib/</loc>
+    <lastmod>2021-08-13T10:22:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.5zyx.com/post/</loc>
-    <lastmod>2021-08-12T17:18:47+08:00</lastmod>
+    <lastmod>2021-08-13T10:22:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.5zyx.com/tags/</loc>
-    <lastmod>2021-08-12T17:18:47+08:00</lastmod>
+    <lastmod>2021-08-13T10:22:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.5zyx.com/post/%E6%88%91%E4%BB%AC%E5%A6%82%E6%AD%A4%E7%9A%84%E6%B8%BA%E5%B0%8F/</loc>
+    <lastmod>2021-08-13T10:22:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.5zyx.com/</loc>
+    <lastmod>2021-08-13T10:22:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,13 +73,6 @@
   
   <url>
     <loc>https://www.5zyx.com/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-08-12T17:18:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.5zyx.com/</loc>
     <lastmod>2021-08-12T17:18:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

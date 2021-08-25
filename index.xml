@@ -6,7 +6,7 @@
     <description>Recent content on 编程悟道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Aug 2021 21:21:17 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Aug 2021 14:26:57 +0800</lastBuildDate>
     
         <atom:link href="https://www.5zyx.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,63 @@
       
         <description>&lt;p&gt;一花一世界，一叶一菩提&lt;/p&gt;
 &lt;p&gt;自我接纳，他者信赖，他者贡献&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>程序员怎么入行</title>
+      <link>https://www.5zyx.com/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%80%8E%E4%B9%88%E5%85%A5%E8%A1%8C/</link>
+      <pubDate>Wed, 25 Aug 2021 14:26:57 +0800</pubDate>
+      
+      <guid>https://www.5zyx.com/post/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%80%8E%E4%B9%88%E5%85%A5%E8%A1%8C/</guid>
+      
+        <description>&lt;p&gt;&lt;strong&gt;最重要的一点就是要热爱写代码&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;程序员的工作是需要长时间静坐在电脑前，如果不热爱，很难坚持下来的。&lt;/p&gt;
+&lt;p&gt;如果你满足了这条，其他的都不是障碍，进入行业后你会迅速的成长。&lt;/p&gt;
+&lt;p&gt;前提是你不会懈怠，自始至终都保持好奇心并不断的学习。哦，还有一条也是特别重要的，那就是一定要实践。仅仅看书视频，不动手敲代码，是不能实质性提升能力的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;编程是一项实践性技能&lt;/strong&gt;。请一定要牢记这句话,一定要多写&lt;/p&gt;
+&lt;h2 id=&#34;职业介绍&#34;&gt;职业介绍&lt;/h2&gt;
+&lt;p&gt;计算机领域涉及到的范围非常广，有嵌入式，硬件，通讯，互联网&amp;hellip;.&lt;/p&gt;
+&lt;p&gt;咱就聊聊我最熟悉的互联网吧，也是最近几年最火的行业，就业岗位也最多的行业&lt;/p&gt;
+&lt;p&gt;互联网程序员可大致分为两大类，前端，和后端。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;前端&lt;/strong&gt; 也就是负责看得见，摸得着的部分，咱们与之交互的界面。在用户的设备上运行的app，web页面等&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;后端&lt;/strong&gt; 负责业务逻辑的处理。提供给前端使用的接口服务。(因为服务器的计算能力强，一些敏感的数据及逻辑)&lt;/p&gt;
+&lt;p&gt;具体想从事哪个工种，可以根据自己兴趣来选择。感觉现在前端更加有市场。我是做后端的，发现好多公司招前端招不到人&lt;/p&gt;
+&lt;h2 id=&#34;怎么入行&#34;&gt;怎么入行&lt;/h2&gt;
+&lt;p&gt;目前来看通过培训班似乎是最便捷的，但是由于很多培训班不讲武德，对学员进行虚假包装，导致很多企业开始排斥培训班出来的&lt;/p&gt;
+&lt;p&gt;咱们主要讲自学哈。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在github上创建账号及项目仓库&lt;/p&gt;
+&lt;p&gt;最好的简历就是有自己的作品。在世界上最大的&amp;quot;同性交友网站&amp;quot; (github)[http://www.github.com] 上传你作品。这个网站可是程序员必逛的地方。第一件事一定要先注册个账号，学会创建一个项目仓库&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在网上找套入门学习视频跟着一步步做&lt;/p&gt;
+&lt;p&gt;推荐以java语言作为入门语言。你可能会说，现在java程序员卷的不行，还学java不是坑人吗？ 学习当然要选择一个比较正统，培养编程思维的语言来开始。你学会了java，然后学习其他语言自然就会比较轻松。先用java打好基础&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;找一个自己想要做的项目进行练手&lt;/p&gt;
+&lt;p&gt;先找一个啥管理系统，商城系统 这种比较普通的项目。可以自己试着实现对应功能。不会的地方就各种搜索引擎找解决办法。初级程序员就是面向搜索引擎编程嘛，用好搜索引擎也是一个好的技能&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不断的打磨自己的项目&lt;/p&gt;
+&lt;p&gt;不能满足于简单实现功能,根据自己的理解深入，还有参考别人的项目，不断打磨。然后就是了解学习各种库，中间件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学习微服务，等运用架构&lt;/p&gt;
+&lt;p&gt;现在你已经可出山，可以开始通过学习架构，运用以前所学来支撑构思&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在第3步开始就可以着手准备找一份工作了，在工作中你会更快的进步，毕竟整天都要和代码打交道了嘛，想不进步都难&lt;/p&gt;
+&lt;h2 id=&#34;怎么提高&#34;&gt;怎么提高&lt;/h2&gt;
+&lt;p&gt;理论+实践相结合&lt;/p&gt;
+&lt;p&gt;数据结构与算法是基石，一定不能放松。要想写出炫酷的功能，这个是一定避免不了的，优秀的软件，除了软件架构，就是里面优雅的算法。算法入门推荐 《算法》这本书，然后有更高的要求就是《算法导论》了;&lt;/p&gt;
+&lt;p&gt;优秀的书很多，可以在网上搜一下书单，经典必读的一定要都至少读一遍，有的要多次阅读，每次阅读你都会有不同的理解和收获。&lt;/p&gt;
+&lt;p&gt;理论上来了，实践才是主菜，一定要多动手，多动手，多动手。&lt;/p&gt;
+&lt;p&gt;到了一天不写代码你就全身难受，这时你应当已经独挡一面&lt;/p&gt;
+&lt;p&gt;以上就是我入行来的一些经验及体会，希望能对一些想入行的朋友有所帮助。如果有啥疑问欢迎向我咨询，必知无不言&lt;/p&gt;
+&lt;p&gt;如果对你有帮助，是否可以赏个关注可否?&lt;/p&gt;
 </description>
       
     </item>

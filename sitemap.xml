@@ -10,48 +10,27 @@
   
   <url>
     <loc>https://www.5zyx.com/categories/</loc>
-    <lastmod>2023-06-30T13:35:12+08:00</lastmod>
+    <lastmod>2021-11-21T15:10:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.5zyx.com/post/</loc>
-    <lastmod>2023-06-30T13:35:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.5zyx.com/</loc>
-    <lastmod>2023-06-30T13:35:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.5zyx.com/categories/%E4%BA%BA%E7%94%9F/</loc>
-    <lastmod>2023-06-30T13:35:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.5zyx.com/post/%E6%9C%9B%E6%9C%88/</loc>
-    <lastmod>2023-06-30T13:35:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.5zyx.com/post/%E4%B8%80%E4%BA%9B%E6%96%87%E5%AD%97/</loc>
-    <lastmod>2023-06-30T11:47:17+08:00</lastmod>
+    <lastmod>2021-11-21T15:10:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.5zyx.com/tags/</loc>
+    <lastmod>2021-11-21T15:10:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.5zyx.com/</loc>
     <lastmod>2021-11-21T15:10:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -80,6 +59,13 @@
   
   <url>
     <loc>https://www.5zyx.com/tags/%E6%84%9F%E6%82%9F/</loc>
+    <lastmod>2021-09-04T16:42:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.5zyx.com/categories/%E4%BA%BA%E7%94%9F/</loc>
     <lastmod>2021-09-04T16:42:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

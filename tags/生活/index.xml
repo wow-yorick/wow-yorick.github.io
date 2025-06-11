@@ -2,46 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on 编程悟道</title>
-    <link>https://www.5zyx.com/tags/%E7%94%9F%E6%B4%BB/</link>
+    <link>https://wow-yorick.github.io/tags/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on 编程悟道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Aug 2021 20:06:03 +0800</lastBuildDate><atom:link href="https://www.5zyx.com/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Aug 2021 20:06:03 +0800</lastBuildDate>
+    <atom:link href="https://wow-yorick.github.io/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>日常琐事日记</title>
-      <link>https://www.5zyx.com/post/%E6%97%A5%E5%B8%B8%E7%90%90%E4%BA%8B%E6%97%A5%E8%AE%B0/</link>
+      <link>https://wow-yorick.github.io/post/%E6%97%A5%E5%B8%B8%E7%90%90%E4%BA%8B%E6%97%A5%E8%AE%B0/</link>
       <pubDate>Sat, 14 Aug 2021 20:06:03 +0800</pubDate>
-      
-      <guid>https://www.5zyx.com/post/%E6%97%A5%E5%B8%B8%E7%90%90%E4%BA%8B%E6%97%A5%E8%AE%B0/</guid>
+      <guid>https://wow-yorick.github.io/post/%E6%97%A5%E5%B8%B8%E7%90%90%E4%BA%8B%E6%97%A5%E8%AE%B0/</guid>
       <description>今天是个特殊的日子，可能会改变我以后的生活&amp;hellip; 昨天老婆不知听同事说了什么，突然给我说，咱们每次都晚上做饭，第二天都吃的隔夜饭，这</description>
     </item>
-    
     <item>
       <title>攀登新的起点</title>
-      <link>https://www.5zyx.com/post/%E6%94%80%E7%99%BB%E6%96%B0%E7%9A%84%E8%B5%B7%E7%82%B9/</link>
+      <link>https://wow-yorick.github.io/post/%E6%94%80%E7%99%BB%E6%96%B0%E7%9A%84%E8%B5%B7%E7%82%B9/</link>
       <pubDate>Thu, 12 Aug 2021 17:18:47 +0800</pubDate>
-      
-      <guid>https://www.5zyx.com/post/%E6%94%80%E7%99%BB%E6%96%B0%E7%9A%84%E8%B5%B7%E7%82%B9/</guid>
+      <guid>https://wow-yorick.github.io/post/%E6%94%80%E7%99%BB%E6%96%B0%E7%9A%84%E8%B5%B7%E7%82%B9/</guid>
       <description>作为一个不善言辞的程序员，说话越来越少了，我开始焦虑，作为社会性动物，没有社交，不会沟通是多么的可怕。 我要改变。我发现了喜马这个平台，然后就</description>
     </item>
-    
     <item>
       <title>我是打工人</title>
-      <link>https://www.5zyx.com/post/%E6%88%91%E6%98%AF%E6%89%93%E5%B7%A5%E4%BA%BA/</link>
+      <link>https://wow-yorick.github.io/post/%E6%88%91%E6%98%AF%E6%89%93%E5%B7%A5%E4%BA%BA/</link>
       <pubDate>Wed, 11 Aug 2021 16:32:47 +0800</pubDate>
-      
-      <guid>https://www.5zyx.com/post/%E6%88%91%E6%98%AF%E6%89%93%E5%B7%A5%E4%BA%BA/</guid>
+      <guid>https://wow-yorick.github.io/post/%E6%88%91%E6%98%AF%E6%89%93%E5%B7%A5%E4%BA%BA/</guid>
       <description>在上海已经十年了，还记得实习哪年，抱着对大城市上海的向往，毅然和两位同学背着被子，坐硬座大巴20多个小时来到了上海。记得当时是3月份来着，还</description>
     </item>
-    
     <item>
       <title>我的学生时代</title>
-      <link>https://www.5zyx.com/post/%E6%88%91%E7%9A%84%E5%AD%A6%E7%94%9F%E6%97%B6%E4%BB%A3/</link>
+      <link>https://wow-yorick.github.io/post/%E6%88%91%E7%9A%84%E5%AD%A6%E7%94%9F%E6%97%B6%E4%BB%A3/</link>
       <pubDate>Tue, 10 Aug 2021 14:26:56 +0800</pubDate>
-      
-      <guid>https://www.5zyx.com/post/%E6%88%91%E7%9A%84%E5%AD%A6%E7%94%9F%E6%97%B6%E4%BB%A3/</guid>
+      <guid>https://wow-yorick.github.io/post/%E6%88%91%E7%9A%84%E5%AD%A6%E7%94%9F%E6%97%B6%E4%BB%A3/</guid>
       <description>我出生在湖北的一个小山村，是标准的山区。在我小时候，三峡大坝还在建设，那时的县城还是高阳镇，我家去县城需要先走7里山路到达山下，然后赶公交大</description>
     </item>
-    
   </channel>
 </rss>

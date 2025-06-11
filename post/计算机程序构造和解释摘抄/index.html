@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html
+  lang="zh-cn"
+  itemscope
+  itemtype="http://schema.org/WebPage"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+          计算机程序构造和解释摘抄 - 编程悟道
+        </title>
+    
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="solid-10" />
+  <meta name="description" content="构造过程抽象 心智的活动，除了尽力产生各种简单的认识之外，主要表现在如下三个方面 将若干简单的认识组合为一个复合认识，由此产生出各种复杂的认识 将" />
+
+  <meta name="keywords" content="编程, 生活, 爱好, 交友" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.120.4" />
+
+
+<link rel="canonical" href="https://wow-yorick.github.io/post/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E6%9E%84%E9%80%A0%E5%92%8C%E8%A7%A3%E9%87%8A%E6%91%98%E6%8A%84/" />
+
+
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/sass/jane.min.d8d87b982993a745e5e7b6a6cbf257be8c3e82aab5e485f0908ad7e6c3501ab2.css" integrity="sha256-2Nh7mCmTp0Xl57amy/JXvow&#43;gqq15IXwkIrX5sNQGrI=" media="screen" crossorigin="anonymous">
+
+
+
+
+
+
+
+<meta property="og:title" content="计算机程序构造和解释摘抄" />
+<meta property="og:description" content="构造过程抽象 心智的活动，除了尽力产生各种简单的认识之外，主要表现在如下三个方面 将若干简单的认识组合为一个复合认识，由此产生出各种复杂的认识 将" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wow-yorick.github.io/post/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E6%9E%84%E9%80%A0%E5%92%8C%E8%A7%A3%E9%87%8A%E6%91%98%E6%8A%84/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-07-06T13:47:41+08:00" />
+<meta property="article:modified_time" content="2023-07-06T13:47:41+08:00" />
+
+<meta itemprop="name" content="计算机程序构造和解释摘抄">
+<meta itemprop="description" content="构造过程抽象 心智的活动，除了尽力产生各种简单的认识之外，主要表现在如下三个方面 将若干简单的认识组合为一个复合认识，由此产生出各种复杂的认识 将"><meta itemprop="datePublished" content="2023-07-06T13:47:41+08:00" />
+<meta itemprop="dateModified" content="2023-07-06T13:47:41+08:00" />
+<meta itemprop="wordCount" content="7252">
+<meta itemprop="keywords" content="," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="计算机程序构造和解释摘抄"/>
+<meta name="twitter:description" content="构造过程抽象 心智的活动，除了尽力产生各种简单的认识之外，主要表现在如下三个方面 将若干简单的认识组合为一个复合认识，由此产生出各种复杂的认识 将"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CWQ7114BD1"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-CWQ7114BD1', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+  </head>
+  <body>
+    <div id="back-to-top"></div>
+
+    <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">编程悟道</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://wow-yorick.github.io/">首页</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://wow-yorick.github.io/post/">归档</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://wow-yorick.github.io/tags/">标签</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://wow-yorick.github.io/categories/">分类</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://wow-yorick.github.io/about/">关于我</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://github.com/wow-yorick" rel="noopener" target="_blank">
+              Github
+              
+              <i class="iconfont">
+                <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M623.36 272.96 473.216 423.04C467.2 429.056 467.072 438.656 472.896 444.416c0 0-6.72-6.656 1.6 1.6C496.064 467.648 528.64 500.224 528.64 500.224 534.464 506.048 544 505.856 550.016 499.904l150.08-150.144 67.328 66.432c9.024 8.96 27.456 4.544 30.4-8.96 19.968-92.608 46.656-227.52 46.656-227.52 6.848-34.496-16.192-56.704-49.92-49.92 0 0-134.656 26.816-227.328 46.784C560.32 178.048 556.352 182.272 554.752 187.136c-3.2 6.208-3.008 14.208 3.776 20.992L623.36 272.96z"></path>
+  <path d="M841.152 457.152c-30.528 0-54.784 24.512-54.784 54.656l0 274.752L237.696 786.56 237.696 237.696l206.016 0c6.656 0 10.752 0 13.248 0C487.68 237.696 512 213.184 512 182.848 512 152.32 487.36 128 456.96 128L183.04 128C153.216 128 128 152.576 128 182.848c0 3.136 0.256 6.272 0.768 9.28C128.256 195.136 128 198.272 128 201.408l0 639.488c0 0.064 0 0.192 0 0.256 0 0.128 0 0.192 0 0.32 0 30.528 24.512 54.784 54.784 54.784l646.976 0c6.592 0 9.728 0 11.712 0 28.736 0 52.928-22.976 54.464-51.968C896 843.264 896 842.304 896 841.344l0-20.352L896 561.408 896 512.128C896 481.792 871.424 457.152 841.152 457.152z"></path>
+</svg>
+
+              </i>
+            </a>
+          
+        
+      </li>
+    
+
+    
+  </ul>
+</nav>
+
+
+    
+      
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+    
+
+    
+
+    
+
+
+    <header id="header" class="header">
+      <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      编程悟道
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://wow-yorick.github.io/">首页</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://wow-yorick.github.io/post/">归档</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://wow-yorick.github.io/tags/">标签</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://wow-yorick.github.io/categories/">分类</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://wow-yorick.github.io/about/">关于我</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://github.com/wow-yorick" rel="noopener" target="_blank">
+              Github
+              
+              <i class="iconfont">
+                <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M623.36 272.96 473.216 423.04C467.2 429.056 467.072 438.656 472.896 444.416c0 0-6.72-6.656 1.6 1.6C496.064 467.648 528.64 500.224 528.64 500.224 534.464 506.048 544 505.856 550.016 499.904l150.08-150.144 67.328 66.432c9.024 8.96 27.456 4.544 30.4-8.96 19.968-92.608 46.656-227.52 46.656-227.52 6.848-34.496-16.192-56.704-49.92-49.92 0 0-134.656 26.816-227.328 46.784C560.32 178.048 556.352 182.272 554.752 187.136c-3.2 6.208-3.008 14.208 3.776 20.992L623.36 272.96z"></path>
+  <path d="M841.152 457.152c-30.528 0-54.784 24.512-54.784 54.656l0 274.752L237.696 786.56 237.696 237.696l206.016 0c6.656 0 10.752 0 13.248 0C487.68 237.696 512 213.184 512 182.848 512 152.32 487.36 128 456.96 128L183.04 128C153.216 128 128 152.576 128 182.848c0 3.136 0.256 6.272 0.768 9.28C128.256 195.136 128 198.272 128 201.408l0 639.488c0 0.064 0 0.192 0 0.256 0 0.128 0 0.192 0 0.32 0 30.528 24.512 54.784 54.784 54.784l646.976 0c6.592 0 9.728 0 11.712 0 28.736 0 52.928-22.976 54.464-51.968C896 843.264 896 842.304 896 841.344l0-20.352L896 561.408 896 512.128C896 481.792 871.424 457.152 841.152 457.152z"></path>
+</svg>
+
+              </i>
+            </a>
+          
+
+        
+
+      </li>
+    
+
+    
+    
+
+    
+  </ul>
+</nav>
+
+    </header>
+
+    <div id="mobile-panel">
+      <main id="main" class="main bg-llight wallpaper">
+        <div class="content-wrapper">
+    <div id="content" class="content">
+      <article class="post">
+        
+        <header class="post-header">
+          <h1 class="post-title">计算机程序构造和解释摘抄</h1>
+          
+
+          <div class="post-meta">
+  <div class="post-meta-author">
+    by
+      solid-10
+    
+  </div>
+
+  <div class="post-meta-time">
+    <time datetime="2023-07-06">
+      2023-07-06
+    </time>
+  </div>
+
+  
+
+
+  <div class="post-meta__right">
+    <span class="post-meta-more">
+        约 7252 字 -
+        预计阅读 15 分钟
+      </span>
+
+    <div class="post-meta-category">
+        <a href="https://wow-yorick.github.io/categories/%E4%BA%BA%E7%94%9F/"> 人生 </a>
+          
+      </div>
+
+
+    
+    
+
+
+    
+    
+  </div>
+</div>
+
+        </header>
+
+        
+        <div class="post-content">
+          <h1 id="构造过程抽象">构造过程抽象</h1>
+<p>心智的活动，除了尽力产生各种简单的认识之外，主要表现在如下三个方面</p>
+<ol>
+<li>将若干简单的认识<strong>组合</strong>为一个复合认识，由此产生出各种<strong>复杂的认识</strong></li>
+<li>将两个认识放在一起<strong>对照</strong>，不管它们如何简单或者复杂，在这样做时并不将它们合二为一。由此得到有关它们的<strong>相互关系</strong></li>
+<li>将<strong>有关认识</strong>与那些<strong>在实际中</strong>和它们<strong>同在</strong>的所有其他认识<strong>隔离开</strong>，这就是<strong>抽象</strong>，所有具有普遍性的认识都是这样得到的</li>
+</ol>
+<p>人们创建出一些称为程序的规则模式，以指导这类过程的进行。</p>
+<p>LISP具有许多独有的特征，这些特征使它成为<strong>研究重要程序的设计、构造</strong>，以及<strong>各种数据结构</strong>，<strong>并</strong>将其关联与支持它们的语言特征的一种及佳<strong>媒介</strong></p>
+<p>LISP<strong>最重要的特征</strong>：计算过程的LISP描述本身又可以作为LISP的数据来表示和操作</p>
+<h2 id="11-程序设计的基本元素">1.1 程序设计的基本元素</h2>
+<h3 id="111-表达式">1.1.1 表达式</h3>
+<p>描述一个语言时，需要将<strong>注意力特别放在</strong>这一语言所提供的,能够<strong>将简单的认识组合起来形成复杂认识的方法方面</strong></p>
+<p>每种强力语言都为此提供了三种机制</p>
+<ul>
+<li><strong>基本表达形式</strong> 用于表示语言所关心的最简单的个体</li>
+<li><strong>组合的方法</strong> 从简单的东西出发构造出复合的元素</li>
+<li><strong>抽象的方法</strong> 为复合对象命名，并将它们当作单元操作</li>
+</ul>
+<p>美观打印格式规则：令各个运算对象垂直对齐</p>
+<h3 id="112-命名和环境">1.1.2 命名和环境</h3>
+<p>需要一种通过名字去使用计算对象的方式:<strong>变量</strong></p>
+<p>实际上，构造一个复杂的程序，也就是为了去一步步地创建出越来越复杂的计算性对象</p>
+<p>将值与符号关联，而后又能提取出这些值。解释器必须维护某种存储能力，以便保持有关的名字-值的对偶的轨迹，这种存储被称为环境</p>
+<h3 id="113-组合式的求值">1.1.3 组合式的求值</h3>
+<p>把与过程性思维有关的各种问题隔离出来</p>
+<ul>
+<li>要求值一个组合式，做下面的事情</li>
+</ul>
+<ol>
+<li>求值该组合式的各个子表达式</li>
+<li>将作为最左子表达式(运算符)的值的那个过程运用于相应的实际参数，所谓实际参数也就是其他子表达式(运算对象)的值</li>
+</ol>
+<p>环境所扮演的角色就是用于确定表达式中各个符号的意义</p>
+<p>对各种表达式的求值规则可以描述为一个简单的通用规则和一组针对不多的特殊形式的专门规则</p>
+<h3 id="114-复合过程">1.1.4 复合过程</h3>
+<ul>
+<li>数和算数运算是基本的数据和过程</li>
+<li>组合式的嵌套提供了一种组织起多个操作的方法</li>
+<li>定义是一种受限的抽象手段，它为名字关联相应的值</li>
+</ul>
+<h3 id="115-过程应用的代换模型">1.1.5 过程应用的代换模型</h3>
+<ul>
+<li>代换的作用只是为了帮助我们领会过程调用中的情况，而不是对解释器实际工作方式的具体描述 （解释器在实际中，一般采用提供形式参数的局部环境的方式，产生&quot;代换&quot;的效果）</li>
+<li>在模拟工程现象时，我们总是从最简单的不完全的模型开始。随着模型不在能满足更细致检查所考虑的问题，从而必须用进一步精化的模型取代</li>
+</ul>
+<p><strong>运用序和正则序</strong></p>
+<ul>
+<li>正则序求值: 完全展开而后归约</li>
+<li>应用序求值: 先求值参数后应用</li>
+</ul>
+<p>采用应用序可以避免对表达式的重复求值，从而提高一些效率，更重要的是，在超出了可以采用替换方式模拟的过程范围后，正则序的处理将变得更复杂的多</p>
+<h3 id="116-条件表达式和谓词">1.1.6 条件表达式和谓词</h3>
+<p>用术语<em>谓词</em>指哪些返回真假的<em>过程</em>，也指那种能求出真或者假的值的<em>表达式</em></p>
+<p><code>and</code>和<code>or</code>都是<strong>特殊形式</strong> 而<strong>不是</strong>普通的过程，因为他们的子表达式不一定都求值， <code>not</code>是一个普通过程</p>
+<h3 id="117-实例-采用牛顿法求平方根">1.1.7 实例: 采用牛顿法求平方根</h3>
+<p>数学函数与程序过程之间的矛盾,是描述一件事<em>特征</em>与描述<em>如何去做</em>这件事之间的普遍性差异的一个具体反映（明性的知识与行动性的知识之间的差异）</p>
+<p>方法： 如果对x的平方根的值有了一个猜测y, 求出y和x/y的平均值（它更接近实际的平方根值）
+立方根的近似值: 如果y是x的立方根的一个近似值，更好的一个近似值: x/y^2+2y/3</p>
+<h3 id="118-过程作为黑箱抽象">1.1.8 过程作为黑箱抽象</h3>
+<p>分解为若干子问题，每个过程完成一件可以清除标明的工作，使它们可以被用作定义其他过程的模块</p>
+<p>一个过程定义应该能隐藏起一些细节</p>
+<p>参数必须是所有过程体里局部的东西</p>
+<h2 id="12-过程与它们所产生的计算">1.2 过程与它们所产生的计算</h2>
+<p>基本算术操作 -&gt; 对其进行组合 -&gt; 定义各种复合过程 -&gt; 对复合过程进行抽象</p>
+<h3 id="121-线性的递归和迭代">1.2.1 线性的递归和迭代</h3>
+<p>线性递归过程 (由解释器维持计算的过程)
+迭代计算过程（其状态可以用固定数目的状态变量描述的计算过程）</p>
+<ul>
+<li>存在着一套固定的规则，一个描述计算过程在从一个状态到下一状态转换时，这些变量的更新方式；</li>
+<li>一个可能有的结束检测,描述这一计算过程应该终止的条件</li>
+</ul>
+<p>递归过程：论述的是语法形式上的事实：这个过程的定义中直接或间接地<strong>引用该过程本身</strong>
+递归计算过程：计算过程的进展方式</p>
+<h3 id="122-树形递归">1.2.2 树形递归</h3>
+<p>树形递归计算过程里所需的步骤数将正比于树中的节点数，其空间需求正比于树的最大深度</p>
+<p>在层次结构性的数据上操作，树形递归计算过程是一种自然的、威力强大的工具</p>
+<p>例： 换零钱方式统计</p>
+<h3 id="123-增长的阶">1.2.3 增长的阶</h3>
+<p>增长的阶为对数时，当问题规模增大一倍时，所需资源量只增加一个常数</p>
+<h3 id="124-求幂">1.2.4 求幂</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scheme" data-lang="scheme"><span style="display:flex;"><span>(<span style="color:#66d9ef">define </span>(<span style="color:#a6e22e">fast-expt</span> b n)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">expt-iter</span> b n <span style="color:#ae81ff">1</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(<span style="color:#66d9ef">define </span>(<span style="color:#a6e22e">expt-iter</span> b n a)
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">cond </span>((= n <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>            a)
+</span></span><span style="display:flex;"><span>          ((even? n)
+</span></span><span style="display:flex;"><span>            (<span style="color:#a6e22e">expt-iter</span> (<span style="color:#a6e22e">square</span> b)
+</span></span><span style="display:flex;"><span>                       (/ n <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>                       a))
+</span></span><span style="display:flex;"><span>          ((odd? n)
+</span></span><span style="display:flex;"><span>            (<span style="color:#a6e22e">expt-iter</span> b
+</span></span><span style="display:flex;"><span>                       (- n <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>                       (* b a)))))
+</span></span></code></pre></div><p>定义一个不变量，要求它在状态之间保持不变，这一技术是思考迭代算法设计问题时的一种非常强有力的方法</p>
+<h3 id="125-最大公约数">1.2.5 最大公约数</h3>
+<pre tabindex="0"><code>r = remainder(a/b)
+GCD(a,b)=GCD(b,r)
+</code></pre><h3 id="126素数检查">1.2.6素数检查</h3>
+<ol>
+<li>
+<p>寻找因子
+如果n不是素数，它必然有一个小于或等于根号nd的因子,意味着只需要在1和根号n之间检查因子</p>
+</li>
+<li>
+<p>费马检查
+多次运行检查，如果测试的次数越多，就可以不断增加对有关结果的信心</p>
+</li>
+<li>
+<p>概率方法
+存在着使出错机会达到任意<em>小</em>的检查算法。</p>
+</li>
+</ol>
+<h2 id="13-用高阶函数做抽象">1.3 用高阶函数做抽象</h2>
+<p>为公共的模式命名，建立抽象，而后直接在抽象的层次上工作
+以过程作为参数，或以过程作为返回值，这类能<code>操作过程</code>的过程称为<strong>高阶过程</strong></p>
+<h3 id="131-过程作为参数">1.3.1 过程作为参数</h3>
+<h3 id="132-用lambda构造过程">1.3.2 用lambda构造过程</h3>
+<ul>
+<li>let 使人能在尽可能接近其使用的地方建立局部变量约束</li>
+<li>构成局部变量,不影响外层同名变量</li>
+</ul>
+<h3 id="133-过程作为一般性的方法">1.3.3 过程作为一般性的方法</h3>
+<ul>
+<li>通过区间折半寻找方程的根</li>
+<li>找出函数的不动点 :: 平均阻尼有助于计算快速收敛</li>
+</ul>
+<h3 id="134-过程作为返回值">1.3.4 过程作为返回值</h3>
+<p>选择过程的形式要清晰且易理解,使该计算过程中有用的元素能表现为一些相互分离的个体,并使它们还能重新用于其他的应用</p>
+<p><code>抽象和第一级过程</code></p>
+<p>高阶过程的重要性，就在于使我们能显式地用程序设计语言的要素去描述这些抽象，使我们能像操作其他计算元素一样去操作它们</p>
+<h1 id="构造数据抽象">构造数据抽象</h1>
+<p>复合数据同样是为了提升我们在设计程序时所位于的<code>概念层次</code>,提高设计的模块性，增强语言的表达能力</p>
+<p>数据抽象技术能使程序更<code>容易</code>设计、维护和修改</p>
+<p>复合数据对象能够成为以<code>混合</code>与<code>匹配</code></p>
+<p>数据导向的程序设计: 允许我们孤立的设计每一种数据表示，然后用添加的方式将它们组合进去(不需要任何修改)</p>
+<h2 id="21-数据抽象导引">2.1 数据抽象导引</h2>
+<p>过程的使用方式与该过程究竟如何通过更基本的过程实现的具体细节相互分离</p>
+<p><code>数据抽象的基本思想</code>,设法构造出一些使用复合数据对象的程序，使它们就像是在<em>抽象数据</em>上操作一样
+&gt; 为每一类数据对象标识出一组操作，使得兑这类数据对象的的所有操作都可以基于它们表述，而且在操作这些数据对象时也只能使用它们</p>
+<p>我们程序中使用数据的方式应该是这样的，除了完成当前工作所必要的东西之外，它们不对所用数据做任何多余的假设</p>
+<p>一种&rsquo;具体&rsquo;数据表示的定义，也应该与程序中使用数据的方式无关.</p>
+<h3 id="211-实例有理数的算术运算">2.1.1 实例：有理数的算术运算</h3>
+<h3 id="212-抽象屏障">2.1.2 抽象屏障</h3>
+<p>把对于具体表示方式的依赖性限制到少数几个界面过程，不但对修改程序有帮助，同时也有助于程序的设计,因为这种做法将使我们能保留考虑不同实现的灵活性</p>
+<p>可以将过程作为对象去操作(数据的过程性表示将在我们的程序宝库里扮演一种核心角色)</p>
+<h2 id="22-层次性数据和闭包性质">2.2 层次性数据和闭包性质</h2>
+<p>组合起的数据对象得到的结果本身还可以通过同样的操作再进行组合</p>
+<h4 id="221-序列的表示">2.2.1 序列的表示</h4>
+<p><code>cons</code> <code>car</code> <code>cdr</code></p>
+<ul>
+<li>表操作</li>
+<li>对表的映射
+map 不仅因为它代表了一种公共模式，而且因为它建立起了一种处理表的高层抽象(强调的是从元素表到结果表的一个变换),不再把注意力吸引到对表中数据逐个处理的细节上</li>
+</ul>
+<h4 id="222-层次性结构">2.2.2 层次性结构</h4>
+<p>对树的映射
+通过序列操作和递归的组合实现</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (scale-tree tree factor)
+</span></span><span style="display:flex;"><span>  (cond ((null? tree) <span style="color:#66d9ef">nil</span>)
+</span></span><span style="display:flex;"><span>        ((<span style="color:#a6e22e">not</span> (pair? tree)) (<span style="color:#a6e22e">*</span> tree factor))
+</span></span><span style="display:flex;"><span>        (else (<span style="color:#a6e22e">cons</span> (scale-tree (<span style="color:#a6e22e">car</span> tree) factor)
+</span></span><span style="display:flex;"><span>                    (scale-tree (<span style="color:#a6e22e">cdr</span> tree) factor)))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (scale-tree tree factor)
+</span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">map</span> (lambda (sub-tree)
+</span></span><span style="display:flex;"><span>         (<span style="color:#66d9ef">if</span> (pair? sub-tree)
+</span></span><span style="display:flex;"><span>             (scale-tree sub-tree factor)
+</span></span><span style="display:flex;"><span>             (<span style="color:#a6e22e">*</span> sub-tree factor)))
+</span></span><span style="display:flex;"><span>       tree))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (tree-map f tree)
+</span></span><span style="display:flex;"><span>  (cond ((null? tree)
+</span></span><span style="display:flex;"><span>         <span style="color:#f92672">&#39;</span>())
+</span></span><span style="display:flex;"><span>        ((<span style="color:#a6e22e">not</span> (pair? tree))
+</span></span><span style="display:flex;"><span>         (f tree))
+</span></span><span style="display:flex;"><span>        (else
+</span></span><span style="display:flex;"><span>         (<span style="color:#a6e22e">cons</span> (tree-map f (<span style="color:#a6e22e">car</span> tree))
+</span></span><span style="display:flex;"><span>               (tree-map f (<span style="color:#a6e22e">cdr</span> tree))))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (tree-map2 f tree)
+</span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">map</span> (lambda (sub-tree)
+</span></span><span style="display:flex;"><span>         (<span style="color:#66d9ef">if</span> (pair? sub-tree)
+</span></span><span style="display:flex;"><span>             (tree-map2 f sub-tree)
+</span></span><span style="display:flex;"><span>             (f sub-tree)))
+</span></span><span style="display:flex;"><span>       tree))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (subsets s)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (null? s)
+</span></span><span style="display:flex;"><span>      (<span style="color:#a6e22e">list</span> <span style="color:#f92672">&#39;</span>())
+</span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">let</span> ((<span style="color:#a6e22e">rest</span> (subsets (<span style="color:#a6e22e">cdr</span> s))))
+</span></span><span style="display:flex;"><span>        (<span style="color:#a6e22e">append</span> <span style="color:#a6e22e">rest</span> (<span style="color:#a6e22e">map</span> (lambda (e)
+</span></span><span style="display:flex;"><span>                            (<span style="color:#a6e22e">cons</span> (<span style="color:#a6e22e">car</span> s) e)) <span style="color:#a6e22e">rest</span>)))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(subsets <span style="color:#f92672">&#39;</span>(<span style="color:#ae81ff">1</span> <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">3</span>))
+</span></span></code></pre></div><h4 id="223-序列作为一种约定的界面">2.2.3 序列作为一种约定的界面</h4>
+<p>序列操作</p>
+<p>enumerate -&gt; filter -&gt; map -&gt; accumulate</p>
+<p>通过提供一个标准部件的库，并使这些部件都有着一些能以各种灵活方式相互连接的约定界面，将能进一步推动人们去做模块化的设计
+模块化结构是控制复杂性的一种威力强大的策略</p>
+<blockquote>
+<p>在真实的信号处理应用中，设计者通常总是从标准化的过滤器和变换装置族中选出一些东西，通过级联的方式构造出各种系统</p>
+</blockquote>
+<p>嵌套映射</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (accumulate op initial <span style="color:#a6e22e">sequence</span>)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (null? <span style="color:#a6e22e">sequence</span>)
+</span></span><span style="display:flex;"><span>      initial
+</span></span><span style="display:flex;"><span>      (op (<span style="color:#a6e22e">car</span> <span style="color:#a6e22e">sequence</span>)
+</span></span><span style="display:flex;"><span>          (accumulate op initial (<span style="color:#a6e22e">cdr</span> <span style="color:#a6e22e">sequence</span>)))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (flatmap proc seq)
+</span></span><span style="display:flex;"><span>  (accumulate <span style="color:#a6e22e">append</span> <span style="color:#f92672">&#39;</span>() (<span style="color:#a6e22e">map</span> proc seq)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (permutations s)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (null? s)
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#39;</span>()
+</span></span><span style="display:flex;"><span>      (flatmap (lambda (x)
+</span></span><span style="display:flex;"><span>                 (<span style="color:#a6e22e">map</span> (lambda (p) (<span style="color:#a6e22e">cons</span> x p))
+</span></span><span style="display:flex;"><span>                      (permutations (<span style="color:#a6e22e">remove</span> x s))))
+</span></span><span style="display:flex;"><span>               s)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (<span style="color:#a6e22e">remove</span> item <span style="color:#a6e22e">sequence</span>)
+</span></span><span style="display:flex;"><span>  (filter (lambda (x) (<span style="color:#a6e22e">not</span> (<span style="color:#a6e22e">=</span> x item)))
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">sequence</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (<span style="color:#a6e22e">map</span> proc items)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (null? items)
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#39;</span>()
+</span></span><span style="display:flex;"><span>      (<span style="color:#a6e22e">cons</span> (proc (<span style="color:#a6e22e">car</span> items)
+</span></span><span style="display:flex;"><span>                  (<span style="color:#a6e22e">map</span> proc (<span style="color:#a6e22e">cdr</span> items))))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (enumerate-interval2 n)
+</span></span><span style="display:flex;"><span>  (define (iter result n)
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">=</span> n <span style="color:#ae81ff">0</span>) result
+</span></span><span style="display:flex;"><span>        (iter (<span style="color:#a6e22e">cons</span> n result) (<span style="color:#a6e22e">-</span> n <span style="color:#ae81ff">1</span>))))
+</span></span><span style="display:flex;"><span>  (iter <span style="color:#f92672">&#39;</span>() n))
+</span></span></code></pre></div><p>八皇后</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (accumulate op initial <span style="color:#a6e22e">sequence</span>)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (null? <span style="color:#a6e22e">sequence</span>)
+</span></span><span style="display:flex;"><span>      initial
+</span></span><span style="display:flex;"><span>      (op (<span style="color:#a6e22e">car</span> <span style="color:#a6e22e">sequence</span>)
+</span></span><span style="display:flex;"><span>          (accumulate op initial (<span style="color:#a6e22e">cdr</span> <span style="color:#a6e22e">sequence</span>)))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (flatmap proc seq)
+</span></span><span style="display:flex;"><span>  (accumulate <span style="color:#a6e22e">append</span> <span style="color:#f92672">&#39;</span>() (<span style="color:#a6e22e">map</span> proc seq)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (queens board-size)
+</span></span><span style="display:flex;"><span>  (define (queen-cols k)
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">=</span> k <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>        (<span style="color:#a6e22e">list</span> empty-board)
+</span></span><span style="display:flex;"><span>        (filter
+</span></span><span style="display:flex;"><span>         (lambda (positions) (safe? k positions))
+</span></span><span style="display:flex;"><span>         (flatmap
+</span></span><span style="display:flex;"><span>          (lambda (rest-of-queens)
+</span></span><span style="display:flex;"><span>            (<span style="color:#a6e22e">map</span> (lambda (new-row)
+</span></span><span style="display:flex;"><span>                   (adjoin-position new-row k rest-of-queens))
+</span></span><span style="display:flex;"><span>                 (enumerate-interval <span style="color:#ae81ff">1</span> board-size)))
+</span></span><span style="display:flex;"><span>          (queen-cols (<span style="color:#a6e22e">-</span> k <span style="color:#ae81ff">1</span>))))))
+</span></span><span style="display:flex;"><span>  (queen-cols board-size))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define empty-board <span style="color:#f92672">&#39;</span>())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (adjoin-position new-row k rest-of-queens)
+</span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">cons</span> new-row rest-of-queens))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (safe? k <span style="color:#a6e22e">position</span>)
+</span></span><span style="display:flex;"><span>  (iter-check (<span style="color:#a6e22e">car</span> <span style="color:#a6e22e">position</span>)
+</span></span><span style="display:flex;"><span>              (<span style="color:#a6e22e">cdr</span> <span style="color:#a6e22e">position</span>)
+</span></span><span style="display:flex;"><span>              <span style="color:#ae81ff">1</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (iter-check row-of-new-queen rest-of-queens i)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (null? rest-of-queens)
+</span></span><span style="display:flex;"><span>      <span style="color:#960050;background-color:#1e0010">#</span><span style="color:#66d9ef">t</span>
+</span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">let</span> ((row-of-current-queen (<span style="color:#a6e22e">car</span> rest-of-queens)))
+</span></span><span style="display:flex;"><span>        (<span style="color:#66d9ef">if</span> (or (<span style="color:#a6e22e">=</span> row-of-new-queen row-of-current-queen) <span style="color:#75715e">; 行碰撞</span>
+</span></span><span style="display:flex;"><span>                (<span style="color:#a6e22e">=</span> row-of-new-queen (<span style="color:#a6e22e">+</span> row-of-current-queen i)) <span style="color:#75715e">; 右下碰撞</span>
+</span></span><span style="display:flex;"><span>                (<span style="color:#a6e22e">=</span> row-of-new-queen (<span style="color:#a6e22e">-</span> row-of-current-queen i))) <span style="color:#75715e">; 左下碰撞</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#960050;background-color:#1e0010">#</span>f
+</span></span><span style="display:flex;"><span>            (iter-check row-of-new-queen
+</span></span><span style="display:flex;"><span>                        (<span style="color:#a6e22e">cdr</span> rest-of-queens) <span style="color:#75715e">; 继续检查剩余的皇后</span>
+</span></span><span style="display:flex;"><span>                        (<span style="color:#a6e22e">+</span> i <span style="color:#ae81ff">1</span>)))))) <span style="color:#75715e">; 更新步进</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (enumerate-interval i n)
+</span></span><span style="display:flex;"><span>  (define (iter result n)
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">=</span> n <span style="color:#ae81ff">0</span>) result
+</span></span><span style="display:flex;"><span>        (iter (<span style="color:#a6e22e">cons</span> n result) (<span style="color:#a6e22e">-</span> n <span style="color:#ae81ff">1</span>))))
+</span></span><span style="display:flex;"><span>  (iter <span style="color:#f92672">&#39;</span>() n))
+</span></span></code></pre></div><p>图形语言
+在描述一种语言时，应该将注意力集中到语言的基本原语、它的组合手段以及它的抽象手段，只是<code>最重要的</code></p>
+<p>我们所用的数据再组合方式下的闭包性质非常重要，因为这使我们能用不多几个操作<code>构造出各种复杂的结构</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define wave2
+</span></span><span style="display:flex;"><span>  (beside wave (flip-vert wave)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define wave4
+</span></span><span style="display:flex;"><span>  (below wave2 wave2))
+</span></span><span style="display:flex;"><span><span style="color:#75715e">; 有了组合之后，抽象出典型的组合模式</span>
+</span></span><span style="display:flex;"><span>(define (flipped-pairs painter)
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">let</span> ((painter2 (beside painter (flip-vert painter)))
+</span></span><span style="display:flex;"><span>        (below painter2 painter2))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define wave4 (flipped-pairs wave))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (right-split painter n)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">=</span> n <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>      painter
+</span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">let</span> ((smaller (right-split painter (<span style="color:#a6e22e">-</span> n <span style="color:#ae81ff">1</span>))))
+</span></span><span style="display:flex;"><span>        (beside painter (below smaller smaller)))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (corner-split painter n)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">=</span> n <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>      painter
+</span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">let</span> ((up (up-split painter (<span style="color:#a6e22e">-</span> n <span style="color:#ae81ff">1</span>)))
+</span></span><span style="display:flex;"><span>            (right (right-split painter (<span style="color:#a6e22e">-</span> n <span style="color:#ae81ff">1</span>))))
+</span></span><span style="display:flex;"><span>        (<span style="color:#66d9ef">let</span> ((top-left (beside up up))
+</span></span><span style="display:flex;"><span>              (bottom-right (below right right))
+</span></span><span style="display:flex;"><span>              (corner (corner-split painter (<span style="color:#a6e22e">-</span> n <span style="color:#ae81ff">1</span>))))
+</span></span><span style="display:flex;"><span>          (beside (below painter top-left)
+</span></span><span style="display:flex;"><span>                  (below bottom-right corner))))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (up-split painter n)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">=</span> n <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>      painter
+</span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">let</span> ((smaller (right-split painter (<span style="color:#a6e22e">-</span> n <span style="color:#ae81ff">1</span>))))
+</span></span><span style="display:flex;"><span>        (below painter (beside smaller smaller)))))
+</span></span></code></pre></div><p>高阶操作</p>
+<p>可以在高阶上工作，抽象出画家的各种组合操作的模式
+(可以把画家操作看成是操控和描述这些元素的组合方法的元素)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (square-of-four tl tr bl br)
+</span></span><span style="display:flex;"><span>  (lambda (painter)
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">let</span> ((top (beside (tl painter) (tr painter)))
+</span></span><span style="display:flex;"><span>          (bottom (beside (bl painter) (br painter))))
+</span></span><span style="display:flex;"><span>      (below bottom top))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (flipped-pairs painter)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">let</span> ((combine4 (square-of-four <span style="color:#a6e22e">identity</span> flip-vert
+</span></span><span style="display:flex;"><span>                                  <span style="color:#a6e22e">identity</span> flip-vert)))
+</span></span><span style="display:flex;"><span>    (combine4 painter)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (square-limit painter n)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">let</span> ((combine4 (square-of-four flip-horiz <span style="color:#a6e22e">identity</span>
+</span></span><span style="display:flex;"><span>                                  rotate180 flip-vert)))
+</span></span><span style="display:flex;"><span>    (combine4 (corner-split painter n))))
+</span></span></code></pre></div><p>框架
+<code>基准向量</code>描述的是<em>框架基准点</em> <strong>相对</strong>于平面上某个<em>绝对基准点</em>的<code>偏移量</code>
+<code>角向量</code>描述了<em>框架的角</em><strong>相对</strong>于<em>框架基准点</em>的<code>偏移量</code>
+如果两个角向量正交，这个框架就是一个矩形，否则就是一个一般的平行四边形</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (frame-coord-map frame)
+</span></span><span style="display:flex;"><span>  (lambda (v)
+</span></span><span style="display:flex;"><span>    (add-vert
+</span></span><span style="display:flex;"><span>     (origin-frame frame)
+</span></span><span style="display:flex;"><span>     (add-vert (scale-vect (xcor-vect v)
+</span></span><span style="display:flex;"><span>                           (edge1-frame frame))
+</span></span><span style="display:flex;"><span>               (scale-vect (ycor-vect v)
+</span></span><span style="display:flex;"><span>                           (edge2-frame frame))))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (make-vect xcor ycor)
+</span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">list</span> xcor ycor))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (xcor-vect v)
+</span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">car</span> v))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (ycor-vect v)
+</span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">cadr</span> v))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (add-vect vect another-vect)
+</span></span><span style="display:flex;"><span>    (make-vect (<span style="color:#a6e22e">+</span> (xcor-vect vect)
+</span></span><span style="display:flex;"><span>                  (xcor-vect another-vect))
+</span></span><span style="display:flex;"><span>               (<span style="color:#a6e22e">+</span> (ycor-vect vect)
+</span></span><span style="display:flex;"><span>                  (ycor-vect another-vect))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (sub-vect vect another-vect)
+</span></span><span style="display:flex;"><span>    (make-vect (<span style="color:#a6e22e">-</span> (xcor-vect vect)
+</span></span><span style="display:flex;"><span>                  (xcor-vect another-vect))
+</span></span><span style="display:flex;"><span>               (<span style="color:#a6e22e">-</span> (ycor-vect vect)
+</span></span><span style="display:flex;"><span>                  (ycor-vect another-vect))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (scale-vect factor vect)
+</span></span><span style="display:flex;"><span>    (make-vect (<span style="color:#a6e22e">*</span> factor (xcor-vect vect))
+</span></span><span style="display:flex;"><span>               (<span style="color:#a6e22e">*</span> factor (ycor-vect vect))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (make-frame origin edge1 edge2)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">list</span> origin edge1 edge2))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (origin-frame f)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">car</span> f))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (edge1-frame f)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">cadr</span> f))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (edge2-frame f)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">caddr</span> f))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (make-frame origin edge1 edge2)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">cons</span> origin
+</span></span><span style="display:flex;"><span>          (<span style="color:#a6e22e">cons</span> edge1 edge2)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (origin-frame f)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">car</span> f))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (edge1-frame f)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">cadr</span> f))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (edge2-frame f)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">cddr</span> f))
+</span></span></code></pre></div><p>画家</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (segments-&gt;painter segment-list)
+</span></span><span style="display:flex;"><span>  (lambda (frame)
+</span></span><span style="display:flex;"><span>    (for-each
+</span></span><span style="display:flex;"><span>     (lambda (segment)
+</span></span><span style="display:flex;"><span>       (draw-line
+</span></span><span style="display:flex;"><span>        ((frame-coord-map frame) (start-segment segment))
+</span></span><span style="display:flex;"><span>        ((frame-coord-map frame) (end-segment segment))))
+</span></span><span style="display:flex;"><span>     segment-list)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (make-segment start end)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">list</span> start end))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (start-segment s)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">car</span> s))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (end-segment s)
+</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">cadr</span> s))
+</span></span></code></pre></div><p>将画家表示为过程，就在这一图形语言中树立起一道强有力的抽象屏障。使我们可以创建和混用基于各种图形能力的各种类型的基本画家</p>
+<blockquote>
+<p>任何过程只要能取一个框架作为参数，画出某些可以伸缩后适合这个框架的东西，它就可以作为一个画家</p>
+</blockquote>
+<p>画家的变换和组合
+特别注意： 这里的画家数据抽象，特别是将画家用过程表示，怎样使beside的实现变得如此简单。这里的beside过程完全不必了解作为其成分的各个画家的任何东西，它只需要知道这些画家能够在指定框架里画出一些东西就够了</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (segments-&gt;painter segment-list)
+</span></span><span style="display:flex;"><span>  (lambda (frame)
+</span></span><span style="display:flex;"><span>    (for-each
+</span></span><span style="display:flex;"><span>     (lambda (segment)
+</span></span><span style="display:flex;"><span>       (draw-line
+</span></span><span style="display:flex;"><span>        ((frame-coord-map frame) (start-segment segment))
+</span></span><span style="display:flex;"><span>        ((frame-coord-map frame) (end-segment segment))))
+</span></span><span style="display:flex;"><span>     segment-list)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (transform-painter painter origin corner1 corner2)
+</span></span><span style="display:flex;"><span>  (lambda (frame)
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">let</span> ((m (frame-coord-map frame)))
+</span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">let</span> ((new-origin (m origin)))
+</span></span><span style="display:flex;"><span>        (painter
+</span></span><span style="display:flex;"><span>         (make-frame new-origin
+</span></span><span style="display:flex;"><span>                     (sub-vect (m corner1) new-origin)
+</span></span><span style="display:flex;"><span>                     (sub-vect (m corner2) new-origin)))))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (flip-vert painter)
+</span></span><span style="display:flex;"><span>  (transform-painter painter
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">0.0</span> <span style="color:#ae81ff">1.0</span>) <span style="color:#75715e">; new origin</span>
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">1.0</span> <span style="color:#ae81ff">1.0</span>)  <span style="color:#75715e">; new end edge1</span>
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">0.0</span> <span style="color:#ae81ff">0.0</span>))) <span style="color:#75715e">; new end of edge2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">; 把自己的图像收缩到给定框架右上四分之一区域</span>
+</span></span><span style="display:flex;"><span>(define (shrink-to-upper-right painter)
+</span></span><span style="display:flex;"><span>  (transform-painter painter
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">0.5</span> <span style="color:#ae81ff">0.5</span>)
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">1.0</span> <span style="color:#ae81ff">0.5</span>)
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">0.5</span> <span style="color:#ae81ff">1.0</span>)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">; 逆时针旋转90度</span>
+</span></span><span style="display:flex;"><span>(define (rotate90 painter)
+</span></span><span style="display:flex;"><span>  (transform-painter painter
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">1.0</span> <span style="color:#ae81ff">0.0</span>)
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">1.0</span> <span style="color:#ae81ff">1.0</span>)
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">0.0</span> <span style="color:#ae81ff">0.0</span>)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">; 向中心收缩</span>
+</span></span><span style="display:flex;"><span>(define (squash-inwards painter)
+</span></span><span style="display:flex;"><span>  (transform-painter painter
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">0.0</span> <span style="color:#ae81ff">0.0</span>)
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">0.65</span> <span style="color:#ae81ff">0.35</span>)
+</span></span><span style="display:flex;"><span>                     (make-vect <span style="color:#ae81ff">0.35</span> <span style="color:#ae81ff">0.65</span>)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (beside painter1 painter2)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">let</span> ((split-point (make-vect <span style="color:#ae81ff">0.5</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">0.0</span>)))
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">let</span> ((paint-left
+</span></span><span style="display:flex;"><span>           (transform-painter painter1
+</span></span><span style="display:flex;"><span>                              (make-vect <span style="color:#ae81ff">0.0</span> <span style="color:#ae81ff">0.0</span>)
+</span></span><span style="display:flex;"><span>                              split-point
+</span></span><span style="display:flex;"><span>                              (make-vect <span style="color:#ae81ff">0.0</span> <span style="color:#ae81ff">1.0</span>)))
+</span></span><span style="display:flex;"><span>          (paint-right
+</span></span><span style="display:flex;"><span>           (transform-painter painter2
+</span></span><span style="display:flex;"><span>                              split-point
+</span></span><span style="display:flex;"><span>                              (make-vect <span style="color:#ae81ff">1.0</span> <span style="color:#ae81ff">0.0</span>)
+</span></span><span style="display:flex;"><span>                              (make-vect <span style="color:#ae81ff">0.5</span> <span style="color:#ae81ff">1.0</span>))))
+</span></span><span style="display:flex;"><span>      (lambda (frame)
+</span></span><span style="display:flex;"><span>        (paint-left frame)
+</span></span><span style="display:flex;"><span>        (paint-right frame)))))
+</span></span></code></pre></div><p>强健设计的语言层次</p>
+<p>分层设计的问题：一个复杂的系统应该通过一系列的层次构造出来，为了描述这些层次，需要使用一系列的语言。
+构造各个层次的方式，就是设法组合起作为这一层次中部件的各种基本元素，而这样构造出的部件又可以作为另一个层次里的基本元素。
+在分层设计中，每个层次上所用的语言都提供了一些基本元素、组合手段，还有对该层次中的适当细节做抽象的手段</p>
+<p><code>在复杂系统的工程中广泛使用这种分层设计方法</code>
+例如：在计算机工程里，电阻和晶体管被组合起来(用模拟电路的语言)，产生出一些部件，例如与门、或门等等；这些门电路又被作为数字电路设计的语言中的基本元素。将这类部件组合起来，构成了处理器、总线和存储系统，随即，又通过它们的组合构造出各种计算机，此时采用的是适合于描述计算机体系结构的语言。计算机的组合可以进一步构造成分布式系统，采用的是适合描述网络互联的语言。我们还可以这样做下去&hellip;</p>
+<p>分层设计有助于使程序更加强健，使我们更有可能在给定范围发生一些小改变时，只需对程序做少量的修改
+分层结构中的每个层次都为表述系统的特征提供了一套独特词汇，以及一套修改这一系统的方式</p>
+<h2 id="23-符号数据">2.3 符号数据</h2>
+<p>将表和符号标记为应该作为数据对象看待，而不是作为应该求职的表达式</p>
+<h3 id="232-实例符号求导">2.3.2 实例：符号求导</h3>
+<p>按愿望编程</p>
+<ol>
+<li>
+<p>代数表达式的表示</p>
+</li>
+<li>
+<p>集合作为未排序的表 - 任何元素的出现都不超过一次</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (element-of-set? x <span style="color:#a6e22e">set</span>)
+</span></span><span style="display:flex;"><span>  (cond ((null? <span style="color:#a6e22e">set</span>) <span style="color:#960050;background-color:#1e0010">#</span>f)
+</span></span><span style="display:flex;"><span>        ((equal? x (<span style="color:#a6e22e">car</span> <span style="color:#a6e22e">set</span>)) <span style="color:#960050;background-color:#1e0010">#</span><span style="color:#66d9ef">t</span>)
+</span></span><span style="display:flex;"><span>        (else (element-of-set? x (<span style="color:#a6e22e">cdr</span> <span style="color:#a6e22e">set</span>)))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (adjoin-set x <span style="color:#a6e22e">set</span>)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (element-of-set? x <span style="color:#a6e22e">set</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">set</span>
+</span></span><span style="display:flex;"><span>      (<span style="color:#a6e22e">cons</span> x <span style="color:#a6e22e">set</span>)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (intersection-set set1 set2)
+</span></span><span style="display:flex;"><span>  (cond ((or (null? set1) (null? set2)) <span style="color:#f92672">&#39;</span>())
+</span></span><span style="display:flex;"><span>        ((element-of-set? (<span style="color:#a6e22e">car</span> set1) set2)
+</span></span><span style="display:flex;"><span>         (<span style="color:#a6e22e">cons</span> (<span style="color:#a6e22e">car</span> set1)
+</span></span><span style="display:flex;"><span>               (intersection-set (<span style="color:#a6e22e">cdr</span> set1) set2)))
+</span></span><span style="display:flex;"><span>        (else (intersection-set (<span style="color:#a6e22e">cdr</span> set1) set2))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (union-set set1 set2)
+</span></span><span style="display:flex;"><span>  (define (iter input result)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (null? input)
+</span></span><span style="display:flex;"><span>      (<span style="color:#a6e22e">reverse</span> result)
+</span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">let</span> ((current-element (<span style="color:#a6e22e">car</span> input))
+</span></span><span style="display:flex;"><span>            (remain-element (<span style="color:#a6e22e">cdr</span> input)))
+</span></span><span style="display:flex;"><span>        (<span style="color:#66d9ef">if</span> (element-of-set? current-element result)
+</span></span><span style="display:flex;"><span>            (iter remain-element result)
+</span></span><span style="display:flex;"><span>            (iter remain-element
+</span></span><span style="display:flex;"><span>                  (<span style="color:#a6e22e">cons</span> current-element resule))))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (iter (<span style="color:#a6e22e">append</span> set1 set2) <span style="color:#f92672">&#39;</span>()))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (intersection-set <span style="color:#a6e22e">set</span> another)
+</span></span><span style="display:flex;"><span>  (define (iter <span style="color:#a6e22e">set</span> result)
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">if</span> (or (null? <span style="color:#a6e22e">set</span>) (null? another))
+</span></span><span style="display:flex;"><span>        (<span style="color:#a6e22e">reverse</span> result)
+</span></span><span style="display:flex;"><span>        (<span style="color:#66d9ef">let</span> ((current-element (<span style="color:#a6e22e">car</span> <span style="color:#a6e22e">set</span>))
+</span></span><span style="display:flex;"><span>              (remain-element (<span style="color:#a6e22e">cdr</span> <span style="color:#a6e22e">set</span>)))
+</span></span><span style="display:flex;"><span>          (<span style="color:#66d9ef">if</span> (and (element-of-set? current-element another)
+</span></span><span style="display:flex;"><span>                   (<span style="color:#a6e22e">not</span> (element-of-set? current-element result)))
+</span></span><span style="display:flex;"><span>              (iter remain-element
+</span></span><span style="display:flex;"><span>                    (<span style="color:#a6e22e">cons</span> current-element result))
+</span></span><span style="display:flex;"><span>              (iter remain-element result)))))
+</span></span><span style="display:flex;"><span>  (iter <span style="color:#a6e22e">set</span> <span style="color:#f92672">&#39;</span>()))
+</span></span></code></pre></div><ol start="3">
+<li>集合作为排序的表</li>
+<li>集合作为二叉树 p106
+节点左边的子树节点都小于它
+节点右边的子树节点都大于它</li>
+<li>集合与信息检索</li>
+</ol>
+<p>Huffman编码： 可以表示为一棵二叉树，其中的树叶是被编码的符号。树中每个非叶节点代表一个集合，其中包含了这一节点之下的所有树叶上的符号。树叶的每个符号还被赋予一个权重，非叶节点所包含的权重是位于它之下的所有叶节点的权重之和</p>
+<p>生成Huffman树
+设法安排这棵树，使得那些带有最低频度的符号出现在离树根最远的地方</p>
+<blockquote>
+<p>这一构造过程从叶节点的集合开始，这种节点中包含各个符号和它们的频度，这就是开始构造编码的初始数据。</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (make-leaf <span style="color:#a6e22e">symbol</span> weight)
+</span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">list</span> <span style="color:#e6db74">&#39;leaf</span> <span style="color:#a6e22e">symbol</span> weight))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (leaf? object)
+</span></span><span style="display:flex;"><span>  (eq? (<span style="color:#a6e22e">car</span> object) <span style="color:#e6db74">&#39;leaf</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (symbol-leaf x) (<span style="color:#a6e22e">cadr</span> x))
+</span></span><span style="display:flex;"><span>(define (weight-leaf x) (<span style="color:#a6e22e">caddr</span> x))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (make-code-tree left right)
+</span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">list</span> left
+</span></span><span style="display:flex;"><span>        right
+</span></span><span style="display:flex;"><span>        (<span style="color:#a6e22e">append</span> (symbols left) (symbols right))
+</span></span><span style="display:flex;"><span>        (<span style="color:#a6e22e">+</span> (weight left) (weight right))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (left-branch tree) (<span style="color:#a6e22e">car</span> tree))
+</span></span><span style="display:flex;"><span>(define (right-branch tree) (<span style="color:#a6e22e">cadr</span> tree))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (symbols tree)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (leaf? tree)
+</span></span><span style="display:flex;"><span>      (<span style="color:#a6e22e">list</span> (symbol-leaf tree))
+</span></span><span style="display:flex;"><span>      (<span style="color:#a6e22e">caddr</span> tree)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (weight tree)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (leaf? tree)
+</span></span><span style="display:flex;"><span>      (weight-leaf tree)
+</span></span><span style="display:flex;"><span>      (<span style="color:#a6e22e">cadddr</span> tree)))
+</span></span></code></pre></div><p>解码过程</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (decode bits tree)
+</span></span><span style="display:flex;"><span>  (define (decode-1 bits current-branch)
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">if</span> (null? bits)
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#39;</span>()
+</span></span><span style="display:flex;"><span>        (<span style="color:#66d9ef">let</span> ((next-branch
+</span></span><span style="display:flex;"><span>               (choose-branch (<span style="color:#a6e22e">car</span> bits) current-branch)))
+</span></span><span style="display:flex;"><span>          (<span style="color:#66d9ef">if</span> (leaf? next=branch)
+</span></span><span style="display:flex;"><span>              (<span style="color:#a6e22e">cons</span> (symbol-leaf next-branch)
+</span></span><span style="display:flex;"><span>                    (decode-1 (<span style="color:#a6e22e">cdr</span> bits) tree))
+</span></span><span style="display:flex;"><span>              (decode-1 (<span style="color:#a6e22e">cdr</span> bits) next-branch)))))
+</span></span><span style="display:flex;"><span>  (decode-1 bits tree))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (choose-branch <span style="color:#66d9ef">bit</span> branch)
+</span></span><span style="display:flex;"><span>  (cond ((<span style="color:#a6e22e">=</span> <span style="color:#66d9ef">bit</span> <span style="color:#ae81ff">0</span>) (left-branch branch))
+</span></span><span style="display:flex;"><span>        ((<span style="color:#a6e22e">=</span> <span style="color:#66d9ef">bit</span> <span style="color:#ae81ff">1</span>) (right-branch branch))
+</span></span><span style="display:flex;"><span>        (else (<span style="color:#66d9ef">error</span> <span style="color:#e6db74">&#34;bad bit -- CHOOSE-BRANCH&#34;</span> <span style="color:#66d9ef">bit</span>))))
+</span></span></code></pre></div><p>带权重元素的集合</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (adjoin-set x <span style="color:#a6e22e">set</span>)
+</span></span><span style="display:flex;"><span>  (cond ((null? <span style="color:#a6e22e">set</span>) (<span style="color:#a6e22e">list</span> x))
+</span></span><span style="display:flex;"><span>        ((<span style="color:#a6e22e">&lt;</span> (weight x) (weight (<span style="color:#a6e22e">car</span> <span style="color:#a6e22e">set</span>))) (<span style="color:#a6e22e">cons</span> x <span style="color:#a6e22e">set</span>))
+</span></span><span style="display:flex;"><span>        (else (<span style="color:#a6e22e">cons</span> (<span style="color:#a6e22e">car</span> <span style="color:#a6e22e">set</span>)
+</span></span><span style="display:flex;"><span>                    (adjoin-set x (<span style="color:#a6e22e">cdr</span> <span style="color:#a6e22e">set</span>))))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (make-leaf-set pairs)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (null? pairs)
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#39;</span>()
+</span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">let</span> ((pair (<span style="color:#a6e22e">car</span> pairs)))
+</span></span><span style="display:flex;"><span>        (adjoin-set (make-leaf (<span style="color:#a6e22e">car</span> pair)
+</span></span><span style="display:flex;"><span>                               (<span style="color:#a6e22e">cadr</span> pair))
+</span></span><span style="display:flex;"><span>                    (make-leaf-set (<span style="color:#a6e22e">cdr</span> pairs))))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(make-leaf-set <span style="color:#f92672">&#39;</span>((a <span style="color:#ae81ff">4</span>) (b <span style="color:#ae81ff">2</span>) (c <span style="color:#ae81ff">1</span>)))
+</span></span></code></pre></div><p>编码</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (encode message tree)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">if</span> (null? message)
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#39;</span>()
+</span></span><span style="display:flex;"><span>      (<span style="color:#a6e22e">append</span> (encode-symbol (<span style="color:#a6e22e">car</span> message) tree)
+</span></span><span style="display:flex;"><span>              (encode (<span style="color:#a6e22e">cdr</span> message) treee))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (encode-symbol <span style="color:#a6e22e">symbol</span> tree)
+</span></span><span style="display:flex;"><span>  (cond ((leaf? tree)
+</span></span><span style="display:flex;"><span>         <span style="color:#f92672">&#39;</span>())
+</span></span><span style="display:flex;"><span>        ((symbol-in-tree? <span style="color:#a6e22e">symbol</span> (left-branch tree))
+</span></span><span style="display:flex;"><span>         (<span style="color:#a6e22e">cons</span> <span style="color:#ae81ff">0</span> (encode-symbol <span style="color:#a6e22e">symbol</span> (left-branch tree))))
+</span></span><span style="display:flex;"><span>        ((symbol-in-tree? <span style="color:#a6e22e">symbol</span> (right-branch tree))
+</span></span><span style="display:flex;"><span>         (<span style="color:#a6e22e">cons</span> <span style="color:#ae81ff">1</span> (encode-symbol <span style="color:#a6e22e">symbol</span> (right-branch tree))))
+</span></span><span style="display:flex;"><span>        (else
+</span></span><span style="display:flex;"><span>         (<span style="color:#66d9ef">error</span> <span style="color:#e6db74">&#34;This symbol not in tree:&#34;</span> <span style="color:#a6e22e">symbol</span>))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (symbol-in-tree? given-symbol tree)
+</span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">not</span> (false?
+</span></span><span style="display:flex;"><span>        (<span style="color:#a6e22e">find</span> (lambda (s)
+</span></span><span style="display:flex;"><span>                (eq? s given-symbol))
+</span></span><span style="display:flex;"><span>              (symbols tree)))))
+</span></span></code></pre></div><p>生成Huffman树</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (generate-huffman-tree pairs)
+</span></span><span style="display:flex;"><span>  (successive-merge (make-leaf-set pairs)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(define (successive-merge ordered-set)
+</span></span><span style="display:flex;"><span>  (cond ((<span style="color:#a6e22e">=</span> <span style="color:#ae81ff">0</span> (<span style="color:#a6e22e">length</span> ordered-set)) <span style="color:#f92672">&#39;</span>())
+</span></span><span style="display:flex;"><span>        ((<span style="color:#a6e22e">=</span> <span style="color:#ae81ff">1</span> (<span style="color:#a6e22e">length</span> ordered-set)) (<span style="color:#a6e22e">car</span> ordered-set))
+</span></span><span style="display:flex;"><span>        (else
+</span></span><span style="display:flex;"><span>         (<span style="color:#66d9ef">let</span> ((new-sub-tree (make-code-tree (<span style="color:#a6e22e">car</span> ordered-set)
+</span></span><span style="display:flex;"><span>                                             (<span style="color:#a6e22e">cadr</span> ordered-set)))
+</span></span><span style="display:flex;"><span>               (remained-ordered-set (<span style="color:#a6e22e">cddr</span> ordered-set)))
+</span></span><span style="display:flex;"><span>           (successive-merge (adjoin-set new-sub-tree remained-ordered-set))))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(generate-huffman-tree <span style="color:#f92672">&#39;</span>((A <span style="color:#ae81ff">4</span>) (B <span style="color:#ae81ff">2</span>) (C <span style="color:#ae81ff">1</span>) (D <span style="color:#ae81ff">1</span>)))
+</span></span></code></pre></div><h2 id="24-抽象数据的多重表示">2.4 抽象数据的多重表示</h2>
+<p>抽象屏障 eg：选择函数 和构造函数</p>
+<p>数据抽象屏障是控制复杂性的强有力工具,可以将设计一个大程序的任务，分割为一组可以分别处理的较小任务</p>
+<p>需要有抽象屏障去隔离互不相同的设计选择,以便允许不同的设计选择在同一个程序里共存</p>
+<p>类型标志，数据导向</p>
+<p>数据抽象原理的建议是所有复数操作都应该可以使用，无论计算机所用的具体表示形式是什么</p>
+<h3 id="242-带标志数据">2.4.2 带标志数据</h3>
+<p>认识数据抽象的一种方式将其看做“最小允诺原则”
+每个数据对象都以其类型作为标志，选择函数就能够在不同的数据上以一种通用的方式操作
+每个选择函数的定义行为依赖于它操作其上的特定数据类型
+在将数据对象从一个层次传到另一个层次的过程中，剥去和加上标志的规范方式可以成为一种重要的组织策略</p>
+<h3 id="243-数据导向的程序设计和可加性">2.4.3 数据导向的程序设计和可加性</h3>
+<p>查表 - 通过显式处理操作-类型表格的方式，管理程序中的各种通用型操作</p>
+<p>消息传递</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (make-from-real-imag x y)
+</span></span><span style="display:flex;"><span>  (define (dispatch op)
+</span></span><span style="display:flex;"><span>    (cond ((eq? op <span style="color:#e6db74">&#39;real-part</span>) x)
+</span></span><span style="display:flex;"><span>          ((eq? op <span style="color:#e6db74">&#39;imag-part</span>) y)
+</span></span><span style="display:flex;"><span>          ((eq? op <span style="color:#e6db74">&#39;magnitude</span>)
+</span></span><span style="display:flex;"><span>           (<span style="color:#a6e22e">sqrt</span> (<span style="color:#a6e22e">+</span> (square x) (square y))))
+</span></span><span style="display:flex;"><span>          ((eq? op <span style="color:#e6db74">&#39;angle</span>) (<span style="color:#a6e22e">atan</span> y x))
+</span></span><span style="display:flex;"><span>          (else
+</span></span><span style="display:flex;"><span>           (<span style="color:#66d9ef">error</span> <span style="color:#e6db74">&#34;Unknown op -- MAKE-FROM-REAL-IMAG&#34;</span> op))))
+</span></span><span style="display:flex;"><span>  dispatch)
+</span></span></code></pre></div><h2 id="25-带有通用型操作的系统">2.5 带有通用型操作的系统</h2>
+<h3 id="251-通用型算数运算">2.5.1 通用型算数运算</h3>
+<h3 id="252-不同类型数据的组合">2.5.2 不同类型数据的组合</h3>
+<ul>
+<li>强制</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(define (apply-generic op <span style="color:#f92672">.</span> args)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">let</span> ((type-tags (<span style="color:#a6e22e">map</span> type-tag args)))
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">let</span> ((proc (<span style="color:#a6e22e">get</span> op type-tags)))
+</span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">if</span> proc
+</span></span><span style="display:flex;"><span>          (<span style="color:#a6e22e">apply</span> proc (<span style="color:#a6e22e">map</span> contents args))
+</span></span><span style="display:flex;"><span>          (<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">=</span> (<span style="color:#a6e22e">length</span> args) <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>              (<span style="color:#66d9ef">let</span> ((type1 (<span style="color:#a6e22e">car</span> type-tags))
+</span></span><span style="display:flex;"><span>                    (type2 (<span style="color:#a6e22e">cadr</span> type-tags))
+</span></span><span style="display:flex;"><span>                    (a1 (<span style="color:#a6e22e">car</span> args))
+</span></span><span style="display:flex;"><span>                    (a2 (<span style="color:#a6e22e">cadr</span> args)))
+</span></span><span style="display:flex;"><span>                (<span style="color:#66d9ef">let</span> ((t1-&gt;t2 (get-conercion type1 type2))
+</span></span><span style="display:flex;"><span>                      (t2-&gt;t1 (get-conercion type2 type1)))
+</span></span><span style="display:flex;"><span>                  (cond (t1-&gt;t2
+</span></span><span style="display:flex;"><span>                         (apply-generic op (t1-&gt;t2 a1) a2))
+</span></span><span style="display:flex;"><span>                        (t2-&gt;t1
+</span></span><span style="display:flex;"><span>                         (apply-generic op a1 (t2-&gt;t1 a2)))
+</span></span><span style="display:flex;"><span>                        (else
+</span></span><span style="display:flex;"><span>                         (<span style="color:#66d9ef">error</span> <span style="color:#e6db74">&#34;No method for these types&#34;</span>
+</span></span><span style="display:flex;"><span>                                (<span style="color:#a6e22e">list</span> op type-tags)))))))
+</span></span><span style="display:flex;"><span>          (<span style="color:#66d9ef">error</span> <span style="color:#e6db74">&#34;No method for these types&#34;</span>
+</span></span><span style="display:flex;"><span>                 (<span style="color:#a6e22e">list</span> op type-tags))))))
+</span></span></code></pre></div><ul>
+<li>类型的层次结构</li>
+</ul>
+<ol>
+<li>塔结构，将一个新类型加入层次结构的问题可以极大的简化,每个类型都需要一个raise过程</li>
+<li>每个类型能够“继承”其超类型中定义的所有操作</li>
+<li>使我们有一种简单的方式去“下降”一个数据对象，使之达到最简单的表示形式</li>
+</ol>
+<ul>
+<li>层次结构的不足
+eg:几何图形类型间的关系</li>
+</ul>
+<h3 id="253-实例符号代数">2.5.3 实例：符号代数</h3>
+<p>多项式算术
+项表的表示</p>
+<h1 id="模块化对象和状态">模块化、对象和状态</h1>
+<p>即使在变化中，它也丝毫未变
+变得越多，它就越是原来的样子
+使系统能够“自然地” 划分为一些具有内聚力的部分
+对模拟真实物理系统的程序基于被模拟系统的结构去设计程序的结构。每个对象，构造起一个与之对应的计算对象；系统里的每种活动，在计算系统中定义一种符号操作</p>
+<ul>
+<li>注意力集中在对象上- 基于环境模型与时间搏斗(处理并发任务变得困难)</li>
+<li>注意力集中在流过系统的信息流上 - 松解在模型中对时间的模拟与计算机求值过程中的各种事件发生的顺序</li>
+</ul>
+<h2 id="31-赋值和局部状态">3.1 赋值和局部状态</h2>
+<h3 id="311-局部状态变量">3.1.1 局部状态变量</h3>
+<h3 id="312-引进赋值带来的利益">3.1.2 引进赋值带来的利益</h3>
+<p>将系统看作是一集带有局部状态的对象，也是一种维护模块化设计的强有力技术</p>
+<h3 id="313-引进赋值的代价">3.1.3 引进赋值的代价</h3>
+<p>不用任何赋值的程序设计称为<em>函数式程序设计</em>
+代换模型的基数是：符号不过是作为值的名字
+引入Set!后，变量索引着一个可以保存值的位置，存储在那里的值也是可以改变的</p>
+<p>同一和变化
+命令式程序设计的缺陷 &ndash; 需要考虑计算的先后次序，因为引入赋值后，会产生副作用</p>
+<h2 id="32-求值的环境模型">3.2 求值的环境模型</h2>
+<p>一个环境就是框架的一个序列,每个框架是包含着一些约束的一个表格(可能为空),这些约束将一些变量名字关联与对应的值（一个框架里，任何变量至多只能有一个约束）。每个框架还包含着一个指针，指向这一框架的外围环境
+如果讨论的框架是全局的，那它没有外围环境</p>
+<h3 id="321-求值规则">3.2.1 求值规则</h3>
+<p>应该把步骤的特定顺序总看作一个实现细节，永远不要去写依赖于特定顺序的程序(一个复杂的编译器去做程序优化，它完全可能改变其中各个表达式的求值顺序)
+将一个过程应用于一组实际参数时，将会建立起一个新环境，其中包含了将所有形式参数约束于对应的实际参数的框架，该框架的外围环境就是所用的那个过程的环境。随后就在这个新环境之下求值过程的体</p>
+<h3 id="322-简单过程的应用">3.2.2 简单过程的应用</h3>
+<p>通过创建不同的框架，维持所有名字为x的局部变量互不相同
+由square创建的每个框架都指向全局环境,因为这就是对应于square的过程对象所指定的环境</p>
+<h3 id="323-将框架看作局部状态的展台">3.2.3 将框架看作局部状态的展台</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span>(<span style="color:#66d9ef">let</span> ((&lt;var&gt; &lt;exp&gt;)) &lt;body&gt;)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;等价</span>
+</span></span><span style="display:flex;"><span>((lambda (&lt;var&gt;) &lt;body&gt;) &lt;exp&gt;)
+</span></span></code></pre></div><h3 id="324-内部定义">3.2.4 内部定义</h3>
+
+        </div>
+
+        
+        
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">solid-10</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2023-07-06
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a href="https://github.com/wow-yorick/articles" rel="noopener" target="_blank">查看源</a></span>
+  </p>
+</div>
+
+
+
+        
+        
+
+
+        <footer class="post-footer">
+          <div class="post-tags">
+              <a href="https://wow-yorick.github.io/tags/"></a>
+                
+            </div>
+
+
+          
+          <nav class="post-nav">
+            
+            
+              <a class="next" href="/post/%E9%A2%91%E8%B5%B7%E7%9A%84%E7%9B%97%E7%AA%83%E6%A1%88/">
+                <span class="next-text nav-default">频起的盗窃案</span>
+                <span class="prev-text nav-mobile">下一篇</span>
+                
+                <i class="iconfont">
+                  <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+                </i>
+              </a>
+          </nav>
+        </footer>
+      </article>
+
+      
+      
+
+
+      
+      
+
+
+    </div>
+
+    
+    
+
+
+  </div>
+
+      </main>
+
+      <footer id="footer" class="footer">
+        <div class="icon-links">
+  
+  
+    <a href="mailto:wowyorick@126.com" rel="me noopener" class="iconfont"
+      title="email" >
+      <svg class="icon" viewBox="0 0 1451 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M664.781909 681.472759 0 97.881301C0 3.997201 71.046997 0 71.046997 0L474.477909 0 961.649408 0 1361.641813 0C1361.641813 0 1432.688811 3.997201 1432.688811 97.881301L771.345323 681.472759C771.345323 681.472759 764.482731 685.154773 753.594283 688.65053L753.594283 688.664858C741.602731 693.493018 729.424896 695.068979 718.077952 694.839748 706.731093 695.068979 694.553173 693.493018 682.561621 688.664858L682.561621 688.65053C671.644501 685.140446 664.781909 681.472759 664.781909 681.472759L664.781909 681.472759ZM718.063616 811.603883C693.779541 811.016482 658.879232 802.205449 619.10784 767.734955 542.989056 701.759633 0 212.052267 0 212.052267L0 942.809523C0 942.809523 0 1024 83.726336 1024L682.532949 1024 753.579947 1024 1348.948139 1024C1432.688811 1024 1432.688811 942.809523 1432.688811 942.809523L1432.688811 212.052267C1432.688811 212.052267 893.138176 701.759633 817.019477 767.734955 777.248 802.205449 742.347691 811.03081 718.063616 811.603883L718.063616 811.603883Z"></path>
+</svg>
+
+    </a>
+  
+    <a href="https://github.com/wow-yorick" rel="me noopener" class="iconfont"
+      title="github"  target="_blank"
+      >
+      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.618667 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.736 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-233.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.218667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.509333 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.562667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750.592 1024 524.672c0-282.752-229.248-512-512-512"></path>
+</svg>
+
+    </a>
+
+
+<a href="https://wow-yorick.github.io/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+    class="iconfont" title="rss" target="_blank">
+    <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="30" height="30">
+  <path d="M819.157333 1024C819.157333 574.592 449.408 204.8 0 204.8V0c561.706667 0 1024 462.293333 1024 1024h-204.842667zM140.416 743.04a140.8 140.8 0 0 1 140.501333 140.586667A140.928 140.928 0 0 1 140.074667 1024C62.72 1024 0 961.109333 0 883.626667s62.933333-140.544 140.416-140.586667zM678.784 1024h-199.04c0-263.210667-216.533333-479.786667-479.744-479.786667V345.173333c372.352 0 678.784 306.517333 678.784 678.826667z"></path>
+</svg>
+
+  </a>
+  
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2021 -
+    2025
+    <span class="heart">
+      
+      <i class="iconfont">
+        <svg class="icon" viewBox="0 0 1025 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="14" height="14">
+  <path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z"
+   fill="#8a8a8a"></path>
+</svg>
+
+      </i>
+    </span><span class="author">
+        solid-10
+        
+      </span></span>
+
+  
+  
+
+  
+</div>
+
+      </footer>
+
+      <div class="button__back-to-top">
+        <a href="#back-to-top">
+          <i class="iconfont">
+            
+            <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="35" height="35">
+  <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
+</svg>
+
+          </i>
+        </a>
+      </div>
+    </div>
+    
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+
+
+
+
+<script type="text/javascript" src="/js/main.407d01696ca8f70d5fea289c5e764101e0cbe4aa06d625589fcc6c2d192ca8e1.js" integrity="sha256-QH0BaWyo9w1f6iicXnZBAeDL5KoG1iVYn8xsLRksqOE=" crossorigin="anonymous"></script>
+
+
+
+  <script type="text/javascript">
+    window.MathJax = {
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

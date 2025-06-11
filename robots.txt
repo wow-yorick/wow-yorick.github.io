@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.5zyx.com/sitemap.xml
+Sitemap: https://wow-yorick.github.io/sitemap.xml
